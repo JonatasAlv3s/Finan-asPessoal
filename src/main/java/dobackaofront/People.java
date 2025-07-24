@@ -76,12 +76,12 @@ public class People {
     }
 
     public void show () {
-        System.out.println(id);
-        System.out.println(name);
-        System.out.println(last_name);
-        System.out.println(cpf);
-        System.out.println(birth_date);
-        System.out.println(email);
-        System.out.println(password);
+        System.out.println("Código: " +id);
+        System.out.println("Nome: " +name);
+        System.out.println("Sobrenome: " +last_name);
+        System.out.println("CPF: " +cpf);
+        System.out.println("Data nascimento: " +birth_date);
+        System.out.println("Email: " +email);
+        System.out.println("Senha: " +password);
     }
 }
