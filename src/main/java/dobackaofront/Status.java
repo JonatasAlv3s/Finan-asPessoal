@@ -6,13 +6,13 @@ public enum Status {
     Overdue("Atrasado"),
     Canceled("Cancelado");
 
-    private final String descricao;
+    private final String description;
 
-    Status(String descricao) {
-        this.descricao = descricao;
+    Status(String description) {
+        this.description = description;
     }
 
-    public String getDescricao() {
-        return descricao;
+    public String getDescription() {
+        return description;
     }
 }
